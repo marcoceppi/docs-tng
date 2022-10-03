@@ -137,8 +137,8 @@ supported modes in Cloud Custodian::
 
 .. _cloud-providers:
 
-Cloud Provider Specific Help
-----------------------------
+## Cloud Provider Specific Help
+
 
 For specific setup isntructions for AWS, Azure, and GCP, visit the relevant getting started
 page.

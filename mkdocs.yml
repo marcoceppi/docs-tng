@@ -24,10 +24,12 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - toc.follow
+    - toc.integrate
   palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"
-      primary: yellow
+      primary: black
       accent: deep orange
       toggle:
         icon: material/toggle-switch-off-outline
@@ -58,7 +60,7 @@ extra:
       link: https://twitter.com/castrojo
 plugins:
   - minify:
-      minify_html: true
+      minify_html: false
   - search
   - git-revision-date-localized:
       fallback_to_build_date: true
@@ -71,7 +73,7 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
-      toc_depth: 1
+      toc_depth: 3
   - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -89,6 +91,7 @@ nav:
   - Getting Started:
     - getting-started/index.md
   - Documentation: 
+    - documentation/index.md
     - 'https://cloudcustodian.io/docs/index.html'
   - API Reference:
     - reference/index.md
