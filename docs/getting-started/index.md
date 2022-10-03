@@ -135,10 +135,7 @@ supported modes in Cloud Custodian::
 
     custodian schema mode
 
-.. _cloud-providers:
-
 ## Cloud Provider Specific Help
-
 
 For specific setup isntructions for AWS, Azure, and GCP, visit the relevant getting started
 page.
@@ -195,7 +192,7 @@ Note the path to schema.json can either be either relative or the full path.
 
 You'll now have completion and validation while authoring policies.
 
-.. image:: c7n-editor.png
+![](c7n-editor.png)
 
 Note if you're authoring policies in json you can also configure the
 json-language-server for the same.
