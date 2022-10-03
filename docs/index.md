@@ -2,6 +2,8 @@
 
 Cloud Custodian enables users to be well managed in the cloud. The simple YAML DSL allows you to easily define rules to enable a well-managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the ad-hoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting.
 
+[Join our Slack](https://communityinviter.com/apps/cloud-custodian/c7n-chat){ .md-button .md-button-primary }
+
 Custodian supports managing AWS, Azure, and GCP public cloud environments.
 
 ## Real-time Compliance

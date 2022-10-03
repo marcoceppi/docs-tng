@@ -1,8 +1,13 @@
-site_name: Cloud Custodian Documentation
+site_name: Cloud Custodian
 copyright: "Copyright &copy; 2022 The Cloud Custodian Authors"
 docs_dir: 'docs'
+repo_url: https://github.com/cloud-custodian/cloud-custodian
+repo_name: cloud-custodian
+
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/git-alt
   custom_dir: overrides
   features:
     - navigation.instant
@@ -42,8 +47,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/cloud-custodian
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/cloud-custodian/cloud-custodian
+    - icon: fontawesome/brands/slack
+      link: https://communityinviter.com/apps/cloud-custodian/c7n-chat
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/u/cloudcustodian
     - icon: fontawesome/brands/python
@@ -59,6 +64,8 @@ plugins:
       type: iso_datetime
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - codehilite:
       guess_lang: false
   - toc:
@@ -72,57 +79,20 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.superfences
   - pymdownx.tasklist
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.details
 # Page tree
 nav:
   - Home: index.md
   - Getting Started:
-    - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Browser support: browser-support.md
-    - Philosophy: philosophy.md
-    - Alternatives: alternatives.md
-    - License: license.md
-    - Changelog:
-  - Documentation: 'https://cloudcustodian.io/docs/index.html'
-    - Changing the colors: setup/changing-the-colors.md
-    - Changing the fonts: setup/changing-the-fonts.md
-    - Changing the language: setup/changing-the-language.md
-    - Changing the logo and icons: setup/changing-the-logo-and-icons.md
-    - Ensuring data privacy: setup/ensuring-data-privacy.md
-    - Setting up navigation: setup/setting-up-navigation.md
-    - Setting up site search: setup/setting-up-site-search.md
-    - Setting up site analytics: setup/setting-up-site-analytics.md
-    - Setting up social cards: setup/setting-up-social-cards.md
-    - Setting up a blog: setup/setting-up-a-blog.md
-    - Setting up tags: setup/setting-up-tags.md
-    - Setting up versioning: setup/setting-up-versioning.md
-    - Setting up the header: setup/setting-up-the-header.md
-    - Setting up the footer: setup/setting-up-the-footer.md
-    - Adding a git repository: setup/adding-a-git-repository.md
-    - Adding a comment system: setup/adding-a-comment-system.md
-    - Building for offline usage: setup/building-for-offline-usage.md
-    - Extensions:
-      - setup/extensions/index.md
-      - Python Markdown: setup/extensions/python-markdown.md
-      - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
-  - Reference:
+    - getting-started/index.md
+  - Documentation: 
+    - 'https://cloudcustodian.io/docs/index.html'
+  - API Reference:
     - reference/index.md
-    - Admonitions: reference/admonitions.md
-    - Annotations: reference/annotations.md
-    - Buttons: reference/buttons.md
-    - Code blocks: reference/code-blocks.md
-    - Content tabs: reference/content-tabs.md
-    - Data tables: reference/data-tables.md
-    - Diagrams: reference/diagrams.md
-    - Footnotes: reference/footnotes.md
-    - Formatting: reference/formatting.md
-    - Grids: reference/grids.md
-    - Icons, Emojis: reference/icons-emojis.md
-    - Images: reference/images.md
-    - Lists: reference/lists.md
-    - MathJax: reference/mathjax.md
-    - Tooltips: reference/tooltips.md
+  - Community:
+    - community/index.md
+  - Calendar:
+    - calendar/index.md
+    
