@@ -4,15 +4,17 @@
 
 We have a regular community meeting that is open to all users and developers of every skill level. 
 
-[Join the mailing list](https://groups.google.com/forum/#!forum/cloud-custodian){ .md-button .md-button-primary } 
+<center>[Join Slack](https://communityinviter.com/apps/cloud-custodian/c7n-chat){ .md-button .md-button-primary } [Join the mailing list](https://groups.google.com/forum/#!forum/cloud-custodian){ .md-button .md-button-primary }</center>
 
-To receive an invite to the meeting, or you can manually add it [via the calendar](https://cloudcustodian.io/calendar/)
+To receive an invite to the meeting, or you can manually add it [via the calendar](https://cloudcustodian.io/calendar/).
 
 ## Community Meetings
 
-All meetings are recorded: 
+All meetings are open to the public and recorded: 
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLJ2Un8H_N5uBeAAWK95SnWvm_AuNJ8q2x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 - [Community Meeting Videos](https://www.youtube.com/watch?v=qy250y0UT-4&list=PLJ2Un8H_N5uBeAAWK95SnWvm_AuNJ8q2x)
 - [Community Meeting Notes Archive](https://github.com/orgs/cloud-custodian/discussions/categories/announcements)
@@ -33,4 +35,6 @@ All meetings are recorded:
 
 We have an annual Governance as Code Day with recorded talks from the community:
 
+<center>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLtIlR7WdaxTEj45N63lUgrd2IhS_gD3pe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
