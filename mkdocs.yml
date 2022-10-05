@@ -90,6 +90,10 @@ nav:
   - Home: index.md
   - Getting Started:
     - getting-started/index.md
+    - getting-started/filters.md
+    - getting-started/actions.md
+    - getting-started/advanced.md
+    - getting-started/policyStructure.md
   - Documentation: 
     - documentation/index.md
     - 'https://cloudcustodian.io/docs/index.html'
