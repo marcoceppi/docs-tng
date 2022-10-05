@@ -1,13 +1,6 @@
 # Advanced Usage
 
-( This should be a TOC)
-
--   `run-multiple-regions`{.interpreted-text role="ref"}
--   `report-multiple-regions`{.interpreted-text role="ref"}
--   `report-custom-fields`{.interpreted-text role="ref"}
--   `policy_resource_limits`{.interpreted-text role="ref"}
-
-## Running against multiple regions {#run-multiple-regions}
+## Running against multiple regions
 
 By default Cloud Custodian determines the region to run against in the
 following order:
@@ -35,7 +28,7 @@ Note: when running reports against multiple regions the output is placed
 in a different directory than when running against a single region. See
 the multi-region reporting section below.
 
-## Reporting against multiple regions {#report-multiple-regions}
+## Reporting against multiple regions
 
 When running against multiple regions the output files are placed in a
 different location that when running against a single region. When
@@ -47,7 +40,7 @@ generating a report, specify multiple regions the same way as with the
 A region column will be added to reports generated that include multiple
 regions to indicate which region each row is from.
 
-## Conditional Policy Execution {#scheduling-policy-execution}
+## Conditional Policy Execution
 
 Cloud Custodian can skip policies that are included in a policy file
 when running if the policy specifies conditions that aren\'t met by the
@@ -127,7 +120,7 @@ policies:
       - start
 ```
 
-## Limiting how many resources custodian affects {#policy_resource_limits}
+## Limiting how many resources custodian affects
 
 Custodian by default will operate on as many resources exist within an
 environment that match a policy\'s filters. Custodian also allows policy
@@ -193,7 +186,7 @@ policies:
       - delete
 ```
 
-## Adding custom fields to reports {#report-custom-fields}
+## Adding custom fields to reports
 
 Reports use a default set of fields that are resource-specific. To add
 other fields use the `--field` flag, which can be supplied multiple
