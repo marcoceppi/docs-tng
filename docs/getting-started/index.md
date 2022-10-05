@@ -7,7 +7,7 @@ application that supports Python 3 on Linux, MacOS and Windows. We recommend
 using at least the minimum supported version of Python.
 
 If `python3 --version` shows a Python version that is not [actively
-supported](https://devguide.python.org/#status-of-python-branches) and the
+supported](https://devguide.python.org/versions/#versions) and the
 steps above don't apply to your environment, you can still install a current
 release of Python manually. [This guide](https://realpython.com/installing-python/) may be a useful reference.
 
