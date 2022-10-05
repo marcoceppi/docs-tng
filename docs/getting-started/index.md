@@ -11,15 +11,10 @@ supported](https://devguide.python.org/#status-of-python-branches) and the
 steps above don't apply to your environment, you can still install a current
 release of Python manually. [This guide](https://realpython.com/installing-python/) may be a useful reference.
 
-NOTE: Some Enterprise/Long Term Support Linux distributions may support Python
-longer than the upstream support period. If you are in this situation it might
-be prudent to contact your vendor to see if there are other supported ways to
-use a more recent version. In some cases using the Docker container might be
-an appropriate solution.
+!!! note
 
-NOTE: Ensure you install the correct follow-on package depending on the cloud
-you are deploying to, otherwise you won't have the right modules for that
-specific cloud.
+    Some Enterprise/Long Term Support Linux distributions may support Python
+    longer than the upstream support period. If you are in this situation it might be prudent to contact your vendor to see if there are other supported ways to use a more recent version. In some cases using the Docker container might be an appropriate solution.
 
 === "Linux and OSX"
 
@@ -69,6 +64,12 @@ specific cloud.
           -v $(pwd)/policy.yml:/home/custodian/policy.yml \
           --env-file <(env | grep "^AWS\|^AZURE\|^GOOGLE") \
              cloudcustodian/c7n run -v -s /home/custodian/output /home/custodian/policy.yml
+
+!!! note 
+
+    Ensure you install the correct follow-on package depending on the cloud
+    you are deploying to, otherwise you won't have the right modules for that
+    specific cloud.
 
 ## Explore Cloud Custodian
 
@@ -160,11 +161,7 @@ running any actions on the resources:
 
 Additional commands let you monitor your services in detail.
 
-You can generate metrics, log outputs, and output to blob storage in each of the different
-providers (AWS, Azure, Google Cloud Platform).
-
-For detailed instructions on how to add metrics, logging, and blob storage output for the
-different clouds, check out the cloud provider specific pages:
+You can generate metrics, log outputs, and output to blob storage in each of the different providers (AWS, Azure, Google Cloud Platform). See the [cloud provider specific help](#cloud-provider-specific-help) at the top of this section for more information.
 
 ### Editor Integration
 
@@ -210,8 +207,7 @@ Run:
 
     activate-global-python-argcomplete
 
-Now launch a new shell (or refresh your bash environment by sourcing the appropriate
-file).
+Now launch a new shell (or refresh your bash environment by sourcing the appropriate file).
 
 ### Troubleshooting
 
