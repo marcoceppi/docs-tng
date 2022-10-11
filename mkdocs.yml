@@ -11,6 +11,7 @@ theme:
   logo: 'assets/cloud-custodian.png'
   custom_dir: overrides
   features:
+    - announce.dismiss
     - navigation.instant
     - navigation.tabs
     - navigation.tracking
