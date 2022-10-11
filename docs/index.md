@@ -38,5 +38,4 @@ Cloud Custodian is open source and free for everyone to use and is a [CNCF Incub
 
 ## Simple DSL
 
-Use Custodian to build complex workflows or simple queries, millions of policies can be constructed using our easy to read DSL. Resources a
-
+Use Custodian to build complex workflows or simple queries, millions of policies can be constructed using our easy to read DSL.

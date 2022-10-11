@@ -94,11 +94,9 @@ nav:
     - getting-started/actions.md
     - getting-started/advanced.md
     - getting-started/policyStructure.md
-  - Documentation: 
-    - documentation/index.md
-    - 'https://cloudcustodian.io/docs/index.html'
-  - API Reference:
-    - reference/index.md
+  - Documentation: 'https://cloudcustodian.io/docs/index.html'
+  #- API Reference:
+  #  - reference/index.md
   - Community:
     - community/index.md
   - Calendar:
