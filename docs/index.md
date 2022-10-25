@@ -26,7 +26,7 @@ Custodian supports managing AWS, Azure, and GCP public cloud environments with K
 
     [:octicons-arrow-right-24: Getting started](#)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Cost Management__
+-   :fontawesome-solid-money-bills:{ .lg .middle } __Cost Management__
 
     ---
 
@@ -34,7 +34,7 @@ Custodian supports managing AWS, Azure, and GCP public cloud environments with K
 
     [:octicons-arrow-right-24: Off Hours](#)
 
--   :material-format-font:{ .lg .middle } __Shift Left__
+-   :material-chevron-triple-left:{ .lg .middle } __Shift Left__
 
     ---
 
@@ -42,7 +42,7 @@ Custodian supports managing AWS, Azure, and GCP public cloud environments with K
 
     [:octicons-arrow-left-24: Shift Left](https://github.com/cloud-custodian/cloud-custodian/issues/5782)
 
--   :material-scale-balance:{ .lg .middle } __Run Anywhere__
+-   :fontawesome-solid-laptop-code:{ .lg .middle } __Run Anywhere__
 
     ---
 
@@ -50,7 +50,7 @@ Custodian supports managing AWS, Azure, and GCP public cloud environments with K
 
     [:octicons-arrow-right-24: License](#)
 
--   :material-scale-balance:{ .lg .middle } __Open Source__
+-   :fontawesome-brands-osi:{ .lg .middle } __Open Source__
 
     ---
 
@@ -58,7 +58,7 @@ Custodian supports managing AWS, Azure, and GCP public cloud environments with K
 
     [:octicons-arrow-right-24: CNCF](https://www.cncf.io/projects/)
 
--   :material-scale-balance:{ .lg .middle } __Simple DSL__
+-   :material-file-code-outline:{ .lg .middle } __Simple DSL__
 
     ---
 

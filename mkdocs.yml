@@ -1,6 +1,6 @@
 site_name: Cloud Custodian
 copyright: "Copyright &copy; 2022 The Cloud Custodian Community"
-docs_dir: 'docs'
+docs_dir: "docs"
 repo_url: https://github.com/cloud-custodian/cloud-custodian
 repo_name: cloud-custodian
 
@@ -8,7 +8,7 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/git-alt
-  logo: 'assets/cloud-custodian.png'
+  logo: "assets/cloud-custodian.png"
   custom_dir: overrides
   features:
     - announce.dismiss
@@ -31,19 +31,20 @@ theme:
     - scheme: default
       media: "(prefers-color-scheme: light)"
       primary: amber
-      accent: orange
+      accent: amber
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
       primary: amber
-      accent: deep orange
+      accent: amber
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
 extra_css:
   - _static/css/extra.css
+  - assets/home.css
 extra:
   analytics:
     provider: google
@@ -90,18 +91,17 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-    - getting-started/index.md
-    - getting-started/filters.md
-    - getting-started/actions.md
-    - getting-started/advanced.md
-    - getting-started/policyStructure.md
-  - Documentation: 'https://cloudcustodian.io/docs/index.html'
+      - getting-started/index.md
+      - getting-started/filters.md
+      - getting-started/actions.md
+      - getting-started/advanced.md
+      - getting-started/policyStructure.md
+  - Documentation: "https://cloudcustodian.io/docs/index.html"
   #- API Reference:
   #  - reference/index.md
   - Community:
-    - community/index.md
+      - community/index.md
   - Calendar:
-    - calendar/index.md
+      - calendar/index.md
   - Discussions:
-    - https://github.com/orgs/cloud-custodian/discussions
-
+      - https://github.com/orgs/cloud-custodian/discussions
